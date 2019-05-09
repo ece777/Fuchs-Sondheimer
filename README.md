@@ -4,6 +4,11 @@ This phenomenon is relevant not only in memristor crossbar structure but also in
 The material properties are hardcoded into the script.
 The result is saved into a *.csv file.
 
+column_1   column_2   column_3   column_4    column_5   column_6  column_7  column_8
+index      w          ratio_FS1  ratio_FS2   ratio_FS   rho_FS    rho_s     rho_bulk
+
+[1:i; w; ratio_FS1; ratio_FS2; ratio_FS; rho_FS; rho_s; rho_bulk*ones(1,i)]
+
 Octave v4.4.1
 
 E. H. Sondheimer, Advances in Physics 1, 1 (1952).
